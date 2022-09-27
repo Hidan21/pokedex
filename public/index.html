@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <!-- STYLE.CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="header bg__primary">
+    <div class="ventana__flotante hiden">
+      <div class="info__ventana">
+        <p class="cerrar">cerrar</p>
+        <div class="img_ventanaF">
+          <img src="img/1.svg" alt="">
+        </div>
+        <div class="dato_ventanaF">
+
+          <h3>nombre: <span></span></h3>
+          <h3>id: <span> </span></h3>
+          <h3>experiencia: <span> </span></h3>
+          <h3>hp: <span> </span></h3>
+          <h3>ataque: <span> </span></h3>
+          <h3>defensa: <span> </span></h3>
+          <h3>ataque especial: <span> </span></h3>
+          <h3>velocidad: <span></span></h3>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="header__container">
+      <div class="section1 border__box ">
+        <img src="img/pokemon-logo-png-1428-256x256.ico" alt="">
+
+        <input type="text" class="buscar__pokemon" placeholder="buscar pokemon">
+      </div>
+
+      <!-- seccion 2 -->
+      <div class="section2 border__box ">
+        <div class="info_section2">
+          <h3>bulbasor</h3>
+          <p>type: monte</p>
+        </div>
+        <div class="img-section2">
+          <img src="img/pokeball.png" alt="">
+        </div>
+
+      </div>
+      <!-- seccion 3 -->
+      <div class="section3 border__box ">
+        <h2>Pokedex</h2>
+        <button class="btn_menu"><img src="img/list.svg" alt=""></button>
+        <div class="buttom">
+          <h3 class="cerrar_menu">x</h3>
+          <button class="btn__categoria  fire">fire</button>
+          <button class="btn__categoria  grass">grass</button>
+          <button class="btn__categoria electric">electric</button>
+          <button class="btn__categoria water">water</button>
+          <button class="btn__categoria ground">ground</button>
+          <button class="btn__categoria rock">rock</button>
+          <button class="btn__categoria fairy">fairy</button>
+          <button class="btn__categoria poison">poison</button>
+          <button class="btn__categoria bug">bug</button>
+          <button class="btn__categoria psychic">psychic</button>
+          <button class="btn__categoria flying">flying</button>
+          <button class="btn__categoria fighting">fighting</button>
+          <button class="btn__categoria normal">normal</button>
+          <button class="btn__categoria normal active">todos</button>
+        </div>
+
+        <!-- container pokemon -->
+
+        <div class="poke-container" id="poke-container">
+          <div class="pokemon" style="background-color: rgb(222, 253, 224);">
+            <div class="img-container">
+              <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="">
+            </div>
+            <div class="info">
+              <span class="number">#001</span>
+              <h3 class="name">pokemon prueba</h3>
+              <small class="type">type: <span>grass</span></small>
+            </div>
+            <div class="info2">
+              <div class="imagen_section4">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="">
+              </div>
+              <h3>nombre: bulbasor <span>id: 1</span></h3>
+              <h3>experiencia: 64</h3>
+              <h3>hp 30</h3>
+              <h3>ataque: 30</h3>
+              <h3>defensa: 30</h3>
+              <h3>ataque especial: 30</h3>
+              <h3>velocidad: 30</h3>
+
+            </div>
+          </div>
+          <div class="pokemon" style="background-color: rgb(222, 253, 224);">
+            <div class="img-container">
+              <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="">
+            </div>
+            <div class="info">
+              <span class="number">#001</span>
+              <h3 class="name">pokemon prueba</h3>
+              <small class="type">type: <span>grass</span></small>
+
+            </div>
+          </div>
+          <div class="pokemon" style="background-color: rgb(222, 253, 224);">
+            <div class="img-container">
+              <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="">
+            </div>
+            <div class="info">
+              <span class="number">#001</span>
+              <h3 class="name">pokemon prueba</h3>
+              <small class="type">type: <span>grass</span></small>
+            </div>
+          </div>
+          <div class="pokemon" style="background-color: rgb(222, 253, 224);">
+            <div class="img-container">
+              <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="">
+            </div>
+            <div class="info">
+              <span class="number">#001</span>
+              <h3 class="name">pokemon prueba</h3>
+              <small class="type">type: <span>grass</span></small>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="section4 border__box ">
+        <div class="img_seccion4">
+          <img src="img/1.svg" alt="">
+        </div>
+        <div class="datos_seccion4">
+
+          <h3>nombre: <span></span></h3>
+          <h3>id <span>: </span></h3>
+          <h3>experiencia: <span>: </span></h3>
+          <h3>hp <span>: </span></h3>
+          <h3>ataque: <span> : </span></h3>
+          <h3>defensa: <span>: </span></h3>
+          <h3>ataque especial: <span>: </span></h3>
+          <h3>velocidad: <span>:</span></h3>
+        </div>
+
+      </div>
+    </div>
+    <!-- 
+      <div class="item4 div__container-header">
+        <h1>cuatro</h1>
+      </div> -->
+    </div>
+
+  </header>
+
+  <!-- SCRIPT JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
